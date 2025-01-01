@@ -1,0 +1,44 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<!-- Register the ExtentReportListener -->
+		<listener class-name="utils.ExtentReportListener" />
+	</listeners>
+
+	<test name="MoneyLionTests">
+
+<!-- 
+	
+	<groups>
+			<run>
+				<include name="Sanity" />
+				<include name="Smoke" />
+				<include name="Regression" />
+			</run>
+
+		</groups>
+	
+-->
+		
+		
+		<!-- 
+			
+			<class name="tests.careerpage.OpenRolesOfficeLocationsVerification"/>
+            <class name="tests.homepage.ProductsVerification"/>
+            <class name="tests.homepage.GuidanceVerification"/>
+            <class name="tests.homepage.MyBusiness"/>
+			
+			<packages>
+			<package name="tests.careerpage" />
+			<package name="tests.homepage" />
+			  This will include all classes under the
+			'tests' package
+
+		</packages>
+			
+		-->
+		<classes>
+            <class name="tests.careerpage.CitiesNamesVerification"/>
+        </classes>
+	</test>
+</suite>

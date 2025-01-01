@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-25T12:39:19 PKT" name="Suite" finished-at="2024-09-25T12:39:43 PKT" duration-ms="24701">
+    <groups>
+      <group name="Smoke">
+        <method signature="CitiesNamesVerification.verifyCitiesOnCareersPage()[pri:0, instance:tests.careerpage.CitiesNamesVerification@192d43ce]" name="verifyCitiesOnCareersPage" class="tests.careerpage.CitiesNamesVerification"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2024-09-25T12:39:19 PKT" name="MoneyLionTests" finished-at="2024-09-25T12:39:43 PKT" duration-ms="24701">
+      <class name="tests.careerpage.CitiesNamesVerification">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.careerpage.CitiesNamesVerification@192d43ce]" started-at="2024-09-25T12:39:19 PKT" name="setUp" finished-at="2024-09-25T12:39:34 PKT" duration-ms="15156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyCitiesOnCareersPage()[pri:0, instance:tests.careerpage.CitiesNamesVerification@192d43ce]" started-at="2024-09-25T12:39:34 PKT" name="verifyCitiesOnCareersPage" finished-at="2024-09-25T12:39:43 PKT" duration-ms="8779" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCitiesOnCareersPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.careerpage.CitiesNamesVerification@192d43ce]" started-at="2024-09-25T12:39:43 PKT" name="tearDown" finished-at="2024-09-25T12:39:43 PKT" duration-ms="377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.careerpage.CitiesNamesVerification -->
+    </test> <!-- MoneyLionTests -->
+  </suite> <!-- Suite -->
+</testng-results>
